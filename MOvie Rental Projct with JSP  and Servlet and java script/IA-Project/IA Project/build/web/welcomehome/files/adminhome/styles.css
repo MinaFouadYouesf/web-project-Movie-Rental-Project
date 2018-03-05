@@ -1,0 +1,137 @@
+﻿body {
+  margin:0px;
+  background-image:url('../../images/welcomehome/bg.jpg');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:static;
+  left:auto;
+  width:1300px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u1 {
+  position:absolute;
+  left:80px;
+  top:73px;
+  width:420px;
+  height:83px;
+  font-size:72px;
+  color:#FFFFFF;
+}
+#u1_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:420px;
+  height:83px;
+}
+#u2 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:420px;
+  word-wrap:break-word;
+}
+#u3 {
+  position:absolute;
+  left:952px;
+  top:100px;
+  width:108px;
+  height:40px;
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+}
+#u3_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:108px;
+  height:40px;
+}
+#u4 {
+  position:absolute;
+  left:2px;
+  top:12px;
+  width:104px;
+  word-wrap:break-word;
+}
+#u5 {
+  position:absolute;
+  left:1060px;
+  top:100px;
+  width:106px;
+  height:40px;
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+}
+#u5_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:106px;
+  height:40px;
+}
+#u6 {
+  position:absolute;
+  left:2px;
+  top:12px;
+  width:102px;
+  word-wrap:break-word;
+}
+#u7 {
+  position:absolute;
+  left:1166px;
+  top:100px;
+  width:134px;
+  height:40px;
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+}
+#u7_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:134px;
+  height:40px;
+}
+#u8 {
+  position:absolute;
+  left:2px;
+  top:12px;
+  width:130px;
+  word-wrap:break-word;
+}
+#u9 {
+  position:absolute;
+  left:844px;
+  top:100px;
+  width:108px;
+  height:40px;
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+}
+#u9_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:108px;
+  height:40px;
+}
+#u10 {
+  position:absolute;
+  left:2px;
+  top:12px;
+  width:104px;
+  word-wrap:break-word;
+}

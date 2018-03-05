@@ -1,0 +1,63 @@
+
+
+Create Table User
+( 
+Username varchar(100) Primary Key,
+Pass varchar(100),
+AccountNum numeric
+
+
+);
+
+
+
+Create Table Admin
+(
+AdminID varchar(100) primary key,
+Pass varchar(100)
+
+);
+
+
+
+Create Table Movies
+(
+MovieName varchar(100) primary key,
+Category varchar(100),
+MovieYear numeric
+);
+
+# Registered(SSN, CrsCode, Semester, Year)
+
+Create Table Mails
+(
+Username varchar(100) REFERENCES User(Username),
+AdminID varchar(100) REFERENCES Admin(AdminID),
+Message varchar(100),
+primary key (Username, AdminID)
+);
+
+
+
+
+Create Table RentedMovies
+(
+Username varchar(100) REFERENCES User(Username),
+MovieName varchar(100) REFERENCES Movies(MovieName),
+RentDate date,
+ReturnDate date,
+Flag bit,
+primary key (Username, MovieName)
+);
+
+
+Create Table AddandUpdate
+(
+AdminID varchar(100) REFERENCES Admin(AdminID),
+MovieName varchar(100) REFERENCES Movies(MovieName)
+);
+
+
+
+Insert Into Admin values ('2012','2012');
+Insert Into Department values ('CS','Computer Science');
